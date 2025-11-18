@@ -28,11 +28,13 @@ button{
     margin-top:2rem;
     font-weight: bold;
     color: white;
-    background-color: rgb(94, 94, 194);
+    background-color: rgb(6, 6, 113);
     padding: 1.5rem 3rem ;
     border-radius: 1rem;
     border: none;
     font-size: 1.4rem;
+    z-index: 9;
+    cursor: pointer;
 }
 
 button:active{
