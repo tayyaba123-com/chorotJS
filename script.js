@@ -48,7 +48,8 @@ btn.addEventListener('click',function(){
       //giving text
        h2.innerHTML=loveQuotes[i]
 
-               let c=Math.floor(Math.random()*3)
+       //for scale
+      let s=Math.floor(Math.random()*3)
 
 
 
@@ -61,7 +62,7 @@ btn.addEventListener('click',function(){
     h2.style.left=y+'%'
     h2.style.rotate=x+'deg'
     h2.style.overflow="hidden"
-    h2.style.scale=c
+    h2.style.scale=s
      
     //appened to main
     main.appendChild(h2)
