@@ -8,7 +8,8 @@ body {
   background-color: black;
   width: 100%;
   height: 100%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: none;
+  
 }
 
 main {
@@ -19,68 +20,10 @@ main {
   align-items: center;
 }
 
-.dowload-container {
-  width: fit-content;
-  padding: 1rem;
-  display: flex;
-  justify-content: center;
-  background-color: #f8fafd;
-  border-radius: 1rem;
-  flex-direction: column;
-  align-items: center;
-}
-.dowload-container h3{
-  color: rgb(7, 41, 71);
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-.dowload-container h3 span{
-  color: rgb(37, 174, 133);
-}
-
-.progress-bar{
-  width: 100%;
-  border: 0.1rem solid rgb(7, 41, 71);;
-  background-color: white;
-  height:1rem;
-  border-radius: 1rem;
-}
-
-.progress-fill{
-  width: 0;
-  height: 100%;
-  border-radius: 1rem;
-  background-color: rgb(24, 12, 52);
-}
-.dowloadBtn-persantage-contanier{
-  width: 100%;
-  padding: 0 2rem;
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  gap: 8rem;
-  
-}
-
-.dowloadBtn-persantage-contanier h2{
-  margin-top: 1.7rem;
-  font-size: 2.6rem;
-  color:rgb(7, 41, 71);;
-}
-
-.dowload-btn{
-  width: fit-content;
-  margin-top: 2rem;
-  font-weight: bold;
-  color: white;
-  background-color: rgb(7, 41, 71);;
-  padding: 1.0rem 1.6rem;
-  border-radius: 0.5rem;
-  border: 1px solid rgb(247, 244, 239);
-  cursor: pointer;
-}
-
-button:active {
-  scale: 0.95;
+img{
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+ transform:translate(-50% ,-50%)
 }
