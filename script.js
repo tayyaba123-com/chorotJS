@@ -11,7 +11,7 @@ let main=document.querySelector('main')
     })
 
  
-
+//for click on box of our UI
 boxes.forEach(function(val){
     val.addEventListener('click',function(){
      sounds(val.innerHTML)
@@ -25,5 +25,10 @@ boxes.forEach(function(val){
          audio.play()
         
    }
+
+//    for pressing key from keyboard
+//    document.addEventListener("keydown", function(event) {
+//     sounds(event.key)
+// });
 
  
