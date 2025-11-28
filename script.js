@@ -1,34 +1,6 @@
-let main=document.querySelector('main')
- let boxes=document.querySelectorAll(' .box')
- 
+addEventListener('mousemove',function(e){
 
- const capitalAlphabets = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+ this.document.body.style.setProperty("--x",e.clientX+'px')
  
- capitalAlphabets.forEach(function(value,i){
-    boxes[i].innerText=value
-    
-    
-    })
-
- 
-//for click on box of our UI
-boxes.forEach(function(val){
-    val.addEventListener('click',function(){
-     sounds(val.innerHTML)
-    })
+ this.document.body.style.setProperty("--y",e.clientY+'px')
 })
-
-
-
-   function sounds(key){
-         audio=new Audio(`audio/${key}.mp3`)
-         audio.play()
-        
-   }
-
-//    for pressing key from keyboard
-//    document.addEventListener("keydown", function(event) {
-//     sounds(event.key)
-// });
-
- 
